@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="ap.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <img src="logo.png" alt="Company Logo" class="company-logo">
+            <div class="admin-profile">
+                <img src="admin_profile_picture.png" alt="Admin Profile Picture" class="admin-picture">
+                <div class="admin-details">
+                    <h3>Admin Name</h3>
+                    <p>Admin Role</p>
+                </div>
+            </div>
+        </div>
+        <ul class="sidebar-menu">
+            <li><a href="#" class="active" onclick="loadContent('dashboard')">Dashboard</a></li>
+            <li><a href="#" onclick="loadContent('user-management')">User Management</a></li>
+            <li><a href="#" onclick="loadContent('Settings')">Settings</a></li>
+            <li><a href="#" onclick="loadContent('Ticket')">Ticket</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="content" id="content">
+        
+    </div>
+    <div class="content" id="content">
+        <div class="rectangular-box"> No of users</div>
+        <div class="rectangular-box">No fo subscriptions</div>
+        <div class="rectangular-box">jedskjn</div>
+       
+    </div>
+    <div class="separator"></div> 
+    <div class="square-box"></div>
+    
+    
+
+    <script src="ap.js"></script>
+</body>
+</html>
